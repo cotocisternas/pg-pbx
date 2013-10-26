@@ -17,10 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: pg-pbx_development
+  database: pg_pbx_development
   pool: 5
-  username: pg-pbx
-  password:
+  username: pg_pbx
+  password: password
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: pg-pbx_test
+  database: pg_pbx_test
   pool: 5
-  username: pg-pbx
-  password:
+  username: pg_pbx
+  password: password
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: pg-pbx_production
+  database: pg_pbx_production
   pool: 5
-  username: pg-pbx
-  password:
+  username: pg_pbx
+  password: password
