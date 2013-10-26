@@ -53,7 +53,7 @@ Location.create(id: 51,region: 13,name: "Provincia de Maipo",capital: "San Berna
 Location.create(id: 52,region: 13,name: "Provincia de Melipilla",capital: "Melipilla",code: "02")
 Location.create(id: 53,region: 13,name: "Provincia de Talagante",capital: "Talagante",code: "02")
 
-coto = User.create(:first_name => 'Ignacio', :last_name => 'Cisternas', :email => 'ignacio.cisternas@acepta.com', :password => 'password', :password_confirmation  => 'password')
-coto.add_role :admin
+admin = User.create(:first_name => 'Admin', :last_name => 'User', :email => 'cotocisternas@gmail.com', :password => 'password', :password_confirmation  => 'password')
+admin.add_role :admin
 
 Dialplan.rebuild_dialplan
