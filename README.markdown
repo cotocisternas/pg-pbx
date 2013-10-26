@@ -1,28 +1,10 @@
-== README
+#PG-PBX
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##TimeLine
+    gource -f --loop 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##TODO
+    - A loot!
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Developer [Coto Cisternas](http://cotocisternas.cl/ "Coto's Blog")
