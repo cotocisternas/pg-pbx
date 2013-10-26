@@ -1,0 +1,2 @@
+class DidsController < ApplicationController
+end

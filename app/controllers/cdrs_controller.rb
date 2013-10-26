@@ -1,0 +1,2 @@
+class CdrsController < ApplicationController
+end
