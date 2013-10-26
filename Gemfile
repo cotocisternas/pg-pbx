@@ -17,6 +17,7 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'quiet_assets'
 gem 'highcharts-rails', '~> 3.0.0'
+gem 'zurb-foundation', '~> 4.0.0'
 
 ## Misc
 gem 'rb-inotify'
