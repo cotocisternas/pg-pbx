@@ -29,7 +29,6 @@ gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 group :development, :test do
@@ -54,7 +53,7 @@ group :test do
 end
 
 ## Debuging
-gem 'debugger'
+#gem 'debugger'
 
 ## Deploy
 gem 'capistrano', '2.13.5'
